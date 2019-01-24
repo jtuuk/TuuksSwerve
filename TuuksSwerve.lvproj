@@ -124,21 +124,21 @@ AddOutputFilter chunkFilter
 			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
+		<Item Name="AbsEncPos_Get.vi" Type="VI" URL="../AbsEncPos_Get.vi"/>
 		<Item Name="CalcHypotenuse.vi" Type="VI" URL="../CalcHypotenuse.vi"/>
 		<Item Name="Deadband.vi" Type="VI" URL="../Deadband.vi"/>
 		<Item Name="Debounce.vi" Type="VI" URL="../Debounce.vi"/>
 		<Item Name="Drift_Compensator.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/sensors/navX/Get/Advanced/Drift_Compensator.vi"/>
 		<Item Name="Drive_8CANSwerve.vi" Type="VI" URL="../Drive_8CANSwerve.vi"/>
 		<Item Name="FieldCentricCalc.vi" Type="VI" URL="../FieldCentricCalc.vi"/>
-		<Item Name="GetAbsEncPos.vi" Type="VI" URL="../GetAbsEncPos.vi"/>
-		<Item Name="GetRelEncPos.vi" Type="VI" URL="../GetRelEncPos.vi"/>
-		<Item Name="GetSwerveConfig.vi" Type="VI" URL="../GetSwerveConfig.vi"/>
 		<Item Name="GyroActions.vi" Type="VI" URL="../GyroActions.vi"/>
-		<Item Name="ResetRelEncPos.vi" Type="VI" URL="../ResetRelEncPos.vi"/>
+		<Item Name="QuadEncActions.vi" Type="VI" URL="../QuadEncActions.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
-		<Item Name="SetSwerveConfig.vi" Type="VI" URL="../SetSwerveConfig.vi"/>
+		<Item Name="SwerveConfig_Get.vi" Type="VI" URL="../SwerveConfig_Get.vi"/>
+		<Item Name="SwerveConfig_Set.vi" Type="VI" URL="../SwerveConfig_Set.vi"/>
 		<Item Name="SwerveMapping.vi" Type="VI" URL="../SwerveMapping.vi"/>
 		<Item Name="SwerveMath.vi" Type="VI" URL="../SwerveMath.vi"/>
+		<Item Name="SwerveRotationCalibrate.ctl" Type="VI" URL="../SwerveRotationCalibrate.ctl"/>
 		<Item Name="SwerveWheelHeadingCalc.vi" Type="VI" URL="../SwerveWheelHeadingCalc.vi"/>
 		<Item Name="Toggle.vi" Type="VI" URL="../Toggle.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
