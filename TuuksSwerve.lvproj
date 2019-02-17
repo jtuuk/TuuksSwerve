@@ -139,18 +139,21 @@ AddOutputFilter chunkFilter
 		<Item Name="HatchLatch_SLND.vi" Type="VI" URL="../HatchLatch_SLND.vi"/>
 		<Item Name="HatchLimitGet.vi" Type="VI" URL="../HatchLimitGet.vi"/>
 		<Item Name="HatchModes.ctl" Type="VI" URL="../HatchModes.ctl"/>
-		<Item Name="Intake_Slnd.vi" Type="VI" URL="../Intake_Slnd.vi"/>
 		<Item Name="QuadEncActions.vi" Type="VI" URL="../QuadEncActions.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="SequenceActions.ctl" Type="VI" URL="../SequenceActions.ctl"/>
+		<Item Name="SwerveAngleMath.vi" Type="VI" URL="../SwerveAngleMath.vi"/>
 		<Item Name="SwerveConfig_Get.vi" Type="VI" URL="../SwerveConfig_Get.vi"/>
 		<Item Name="SwerveConfig_Set.vi" Type="VI" URL="../SwerveConfig_Set.vi"/>
 		<Item Name="SwerveDeadBand.vi" Type="VI" URL="../SwerveDeadBand.vi"/>
 		<Item Name="SwerveMapping.vi" Type="VI" URL="../SwerveMapping.vi"/>
 		<Item Name="SwerveMath.vi" Type="VI" URL="../SwerveMath.vi"/>
+		<Item Name="SwervePowerMath.vi" Type="VI" URL="../SwervePowerMath.vi"/>
 		<Item Name="SwerveRotationCalibrate.ctl" Type="VI" URL="../SwerveRotationCalibrate.ctl"/>
 		<Item Name="SwerveWheelHeadingCalc.vi" Type="VI" URL="../SwerveWheelHeadingCalc.vi"/>
 		<Item Name="Toggle.vi" Type="VI" URL="../Toggle.vi"/>
+		<Item Name="Torros.vi" Type="VI" URL="../Torros.vi"/>
+		<Item Name="Torros_Slnd.vi" Type="VI" URL="../Torros_Slnd.vi"/>
 		<Item Name="Wait.vi" Type="VI" URL="../Wait.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -176,6 +179,7 @@ AddOutputFilter chunkFilter
 				<Item Name="CTRE_Phoenix_MotorControl_ControlMode.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Controls/CTRE_Phoenix_MotorControl_ControlMode.ctl"/>
 				<Item Name="CTRE_Phoenix_MotorControl_DevRefData.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Controls/CTRE_Phoenix_MotorControl_DevRefData.ctl"/>
 				<Item Name="CTRE_Phoenix_MotorControl_FeedbackDevice.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Controls/CTRE_Phoenix_MotorControl_FeedbackDevice.ctl"/>
+				<Item Name="CTRE_Phoenix_MotorControl_Follow.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/CTRE_Phoenix_MotorControl_Follow.vi"/>
 				<Item Name="CTRE_Phoenix_MotorControl_GetDevRefData.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/CTRE_Phoenix_MotorControl_GetDevRefData.vi"/>
 				<Item Name="CTRE_Phoenix_MotorControl_NeutralMode.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Controls/CTRE_Phoenix_MotorControl_NeutralMode.ctl"/>
 				<Item Name="CTRE_Phoenix_MotorControl_RefNumRegistryGet.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/CTRE_Phoenix_MotorControl_RefNumRegistryGet.vi"/>
@@ -747,7 +751,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">30</Property>
+				<Property Name="Bld_version.build" Type="Int">33</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
